@@ -38,7 +38,7 @@ nav ul li a:hover {
 
 /* Logo Styling */
 .logo {
-  width: 400px;
+  width: 375px;
 }
 
 .logo-box {
@@ -47,6 +47,14 @@ nav ul li a:hover {
 
 .search-box {
   margin-bottom: 20px;
+  display: block;
+  height: 44px;
+  width: 632px;
+}
+
+.search {
+  height: 44px;
+  width: 484px;
 }
 
 /* Main Content Styling */
