@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
+
   <head>
     <link href="./style.css" type="text/css" rel="stylesheet"/>
     <meta charset="utf-8">
     <title>Google</title>
   </head>
+
   <body>
+    <div id="viewport">
 
-    <!-- TopNav -->
-    <nav class= "top-nav">
-      <ul>
-        <li><a href="#">Mail</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#">Placeholder</a></li>
-      </ul>
-    </nav>
+      <!-- TopNav -->
+      <nav class= "top-nav">
+        <ul>
+          <li><a href="#">Mail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><a href="#">Placeholder</a></li>
+        </ul>
+      </nav>
 
-    <!-- Searchbar + Logo -->
-    <center>
-      <div class="main-content">
-        <div class="logo-box">
-          <img src="./images/google-logo.png" class="logo" alt="Goole-Logo"/>
+      <!-- Searchbar + Logo -->
+      <center>
+        <div class="main-content">
+          <div class="logo-box">
+            <img src="./images/google-logo.png" class="logo" alt="Goole-Logo"/>
+          </div>
+
+          <div class="search-box" action="/search">
+            <input class="search" type="text">
+          </div>
+
+          <div class="buttons">
+            <button id="google_search" class= "button" type="button">Google Search</button>
+            <button id="feeling_lucky" class= "button" type="button">I'm Feelin Lucky</button>
+          </div>
         </div>
+      </center>
 
-        <div class="search-box" action="/search">
-          <input class="search" type="text">
-        </div>
+      <!-- Footer -->
+      <div class="footer">
+        <div class="fcnt">
+          <span class = "fsr">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            <a href="#">About</a>
+          </span>
 
-        <div class="buttons">
-          <button class= "button" type="button">Google Search</button>
-          <button class= "button" type="button">I'm Feelin Lucky</button>
+          <span class="fsl">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+          </span>
         </div>
       </div>
-    </center>
 
-    <!-- Footer -->
-    <footer>
-      <span class = "fsr">
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-      </span>
-
-      <span class="fsl">
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-        <a href="#">Placeholder</a>
-      </span>
-    </footer>
-
+    </div>
   </body>
 </html>

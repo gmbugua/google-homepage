@@ -9,6 +9,26 @@
 
 body {
   background-color: white;
+  margin: 0;
+  height: 100%;
+  display: block;
+}
+
+div #viewport {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#viewport {
+  min-height: 100%;
+  margin: 0 auto;
+  min-width: 980px;
+}
+
+/* Main Content Styling */
+.main-content {
+  margin: 150px;
 }
 
 /* Top Navbar Code */
@@ -21,7 +41,7 @@ nav {
 nav ul {
   float: right;
   margin: 0;
-  padding: 10px 0;
+  padding: 20px 0;
   font-size: 14px;
 }
 
@@ -73,24 +93,45 @@ nav ul li a:hover {
   border: none;
 }
 
-/* Main Content Styling */
+/* Buttons styling */
+.buttons {
+  display: block;
+  text-align: -webkit-center;
+}
 
-.main-content {
-  margin: 180px;
+button {
+  height: 36px;
+  line-height: 27px;
+}
+
+#google_search , #feeling_lucky {
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
 }
 
 /* Footer */
-footer {
-  height: 50px;
-  width: 100%;
-  bottom: 0;
+.footer {
   position: absolute;
-  visibility: visible;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  padding-top: 9px;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
 }
 
-footer span {
+.footer span {
   display: inline;
 }
 .fsl {
@@ -103,14 +144,15 @@ footer span {
   white-space: nowrap;
 }
 
-footer span a {
+.footer span a {
   color: dimgray;
   text-align: center;
   padding: 0px 16px;
   text-decoration: none;
+  font-size: 13px;
 }
 
-footer span a:hover {
+.footer span a:hover {
   color: #3b3b3b;
   text-decoration: underline;
 }
