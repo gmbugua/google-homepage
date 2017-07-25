@@ -3,6 +3,10 @@
   font-weight: 400;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   background-color: white;
 }
@@ -18,7 +22,7 @@ nav ul {
   float: right;
   margin: 0;
   padding: 10px 0;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 nav ul li {
@@ -30,7 +34,7 @@ nav ul li a {
   color: black;
   text-decoration: none;
   text-align: center;
-  padding: 0 24px;
+  padding: 0px 24px;
 }
 
 nav ul li a:hover {
@@ -39,23 +43,34 @@ nav ul li a:hover {
 
 /* Logo Styling */
 .logo {
-  width: 300px;
+  width: 275px;
 }
 
 .logo-box {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
+/* Search-Box styling */
 .search-box {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   display: block;
-  height: 44px;
-  width: 632px;
+  height: 45px;
+  width: 600px;
+  border: 1px solid;
+  border-color: #e3e3e3;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 9px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search-box:hover {
+   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 7px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search {
-  height: 44px;
-  width: 484px;
+  margin-top: 4px;
+  height: 34px;
+  width: 550px;
+  font-size: 16px;
+  border: none;
 }
 
 /* Main Content Styling */
@@ -96,6 +111,6 @@ footer span a {
 }
 
 footer span a:hover {
-  color: black;
+  color: #3b3b3b;
   text-decoration: underline;
 }
