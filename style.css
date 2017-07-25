@@ -17,7 +17,8 @@ nav {
 nav ul {
   float: right;
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
+  font-size: 13px;
 }
 
 nav ul li {
@@ -38,7 +39,7 @@ nav ul li a:hover {
 
 /* Logo Styling */
 .logo {
-  width: 375px;
+  width: 300px;
 }
 
 .logo-box {
